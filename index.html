@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Chibit University</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/styles.min.css">
+
+<!-- Google Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="headerWrapper">
+        <header id="top">
+            <img src="images/Frame 1-2.png" 
+         srcset="images/Frame 1-2.png,
+                images/Frame 1-1.png"
+         alt="Logo"
+         style="width: auto;">
+            <span>University of Mr.Chibit</span>
+            <a href="#navlinks" class="menu-toggle">&#9776;</a>
+        </header>
+    </div><!-- end headerWrapper -->
+    
+    <div id="navWrapper">
+        <nav id="navlinks">
+            <a href="#top" class="close-menu">&#10005;</a>
+            <ul>
+                <li><a href="#">Client</a></li>
+                <li><a href="#">Services</a></li>
+                <li class="active"><a href="#">Best Practices</a></li>
+                <li><a href="#">Our Team</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div><!-- end navWrapper -->
+
+<div id="mainWrapper">
+    <main>
+        <form method="GET" action="thanks.html" class="my-form" autocomplete="on">
+            <h2>Contact Information</h2>
+            <label>
+                First Name*:
+                <input type="text" name="fname" autocomplete="given-name" required title="First Name Here">
+            </label>
+            
+            <label>
+                Last Name*:
+                <input type="text" name="lname" autocomplete="family-name" required title="Last Name Here">
+            </label>
+            
+            <label>
+                Cell Phone*:
+                <input type="tel" name="phone" autocomplete="tel" required title="Cell Phone Here">
+            </label>
+
+            <label>
+                Email*:
+                <input type="email" name="email" autocomplete="email" required title="Your Email Please">
+            </label>
+
+            <label>
+                Address:
+                <input type="text" name="address" autocomplete="street-address">
+            </label>
+
+            <label>
+                City:
+                <input type="text" name="city" autocomplete="address-level2">
+            </label>
+
+            <label>
+                State:
+                <input type="text" name="state" autocomplete="address-level1">
+            </label>
+
+            <label>
+                Zip:
+                <input type="text" name="zip" autocomplete="postal-code">
+            </label>
+
+            <h2>Communication Preferences</h2>
+            <label><input type="radio" name="communication_preference" value="text-message" checked>Text</label>
+            <label><input type="radio" name="communication_preference" value="email-message">Email</label>
+            <label><input type="radio" name="communication_preference" value="mail-message">Mail</label>
+            
+
+
+            <h2>Previous School</h2>
+            <label>
+                School Type:
+                <select name="condition" required>
+                    <option value="">Please Select</option>
+                    <option value="tika-university">Tika University</option>
+                    <option value="faqwaqwa-university">Faqwaqwa University</option>
+                    <option value="tigralini-university">Tigralini University</option>
+                </select>
+            </label>
+            <label>
+                Highschool Graduation Date:
+                <input type="date" name="graduation-date" min="2020-01-01" max="24-12-31">
+            </label>
+
+            <h2>Education Completed</h2>
+            <label><input type="checkbox" name="education-completed" value="ged">GED</label>
+            <label><input type="checkbox" name="education-completed" value="associates">Associates</label>
+            <label><input type="checkbox" name="education-completed" value="bachelors">Bachelors</label>
+
+            <h2>Account information?</h2>
+
+
+        <label>
+            Username (5-10 characters):
+            <input type="text" name="username" required pattern="[A-Za-z]{5,10}"  
+                title="Please enter a username that is 5-10 letter long. Only alphabet.">
+        </label>
+
+        <label>
+            Password (5-9 letters or numbers):
+            <input type="password" name="password" required 
+                minlength="6"
+                title="At least 6 characters please">
+        </label>
+
+            <input type="submit" value="Create my account">
+        </form>
+        </form>     
+
+    </main>
+</div><!-- end main wrapper -->
+    
+<div id="footerWrapper">
+    <footer>
+        <p>Copyright &copy; 2025 Design Thinking Inc. All rights reserved. 
+            <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a> | <a href="#">Clients</a></p>
+    </footer>
+</div> <!-- end footer wrapper -->
+   
+</body>
+</html> 
