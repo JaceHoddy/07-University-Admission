@@ -88,6 +88,7 @@ form.my-form {
     margin: 1rem $gutter;
 
     label {
+        margin: 0 $gutter;
         display: block;
         font-size: 0.8rem;
         color: black;
@@ -106,6 +107,7 @@ form.my-form {
     input[type=number],
     input[type=email],
     input[type=password],
+    input[type=date],
     select {
         display: block;
         margin: 0.1rem 0 1rem 0;
@@ -159,7 +161,6 @@ form.my-form {
 /* --------------------------- MAIN --------------------------- */
 main {
     h1 {
-        padding: 1rem $gutter.5rem $gutter;
         font-size: 1.5rem;
         color: $secondaryColor;
         font-weight: $lightWeight

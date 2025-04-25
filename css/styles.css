@@ -384,6 +384,7 @@ form.my-form {
   margin: 1rem 10px;
 }
 form.my-form label {
+  margin: 0 10px;
   display: block;
   font-size: 0.8rem;
   color: black;
@@ -400,6 +401,7 @@ form.my-form input[type=tel],
 form.my-form input[type=number],
 form.my-form input[type=email],
 form.my-form input[type=password],
+form.my-form input[type=date],
 form.my-form select {
   display: block;
   margin: 0.1rem 0 1rem 0;
@@ -435,7 +437,6 @@ form.my-form input[type=submit] {
 
 /* --------------------------- MAIN --------------------------- */
 main h1 {
-  padding: 1rem 10px 0.5rem 10px;
   font-size: 1.5rem;
   color: #7c1d47;
   font-weight: 300;
